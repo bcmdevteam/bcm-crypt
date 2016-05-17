@@ -17,10 +17,5 @@ class BcmCryptProvider extends ServiceProvider
         $this->app['bcmcrypter'] = $this->app->share(function($app) {
             return new BcmCrypter;
         });
-
-        $this->app->booting(function() {
-            $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('BcmCrypt', 'BcmDevTeam\BcmCrypt\BcmCrypter');
-        });
     }
 }

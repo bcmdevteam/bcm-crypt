@@ -18,7 +18,7 @@ class BcmCrypter
         if (!empty($key)) {
             $this->key = $key;
         } else {
-            $key = env('API_KEY');
+            $this->key = env('APP_KEY');
         }
     }
 
