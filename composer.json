@@ -1,0 +1,26 @@
+{
+  "name": "bcmdevteam/bcm-crypt",
+  "description": "Simple package to handle AES encryption and decryption",
+  "keywords": [
+    "aes",
+    "encryption",
+    "decryption"
+  ],
+  "homepage": "https://github.com/bcmdevteam/bcm-crypt",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brand Catalyst Media",
+      "email": "dev.team@bcat.in",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BcmDevTeam\\BcmCrypt\\": "src"
+    }
+  }
+}
