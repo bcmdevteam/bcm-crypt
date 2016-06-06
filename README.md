@@ -2,7 +2,7 @@
 
 ###Installation
 
-Pull the project by running: `composer require bcmdevteam/bcm-crypt:dev-master`
+Pull the project by running: `composer require bcmdevteam/bcm-crypt`
 
 Add in your `config/app.php`:
 <pre>
